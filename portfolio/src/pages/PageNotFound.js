@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
-export default function PageNotFound() {
+const PageNotFound = () => {
   let history = useHistory();
 
   return (
@@ -22,3 +22,5 @@ export default function PageNotFound() {
     </div>
   );
 }
+
+export default PageNotFound

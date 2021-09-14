@@ -5,7 +5,7 @@ import { NavLink  } from "react-router-dom"
 // Email icon
 import { AiFillAppstore } from 'react-icons/ai'
 
-export default function Navbar() {
+const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -96,3 +96,5 @@ export default function Navbar() {
     </div>
   );
 }
+
+export default Navbar

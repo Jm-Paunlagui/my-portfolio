@@ -20,27 +20,27 @@ const Navbar = () => {
               }}
               className="flex items-center text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md">
               <AiFillAppstore/>
-              <a class="font text-base ml-3">JmPaulagui</a>
+              <a class="font text-xl ml-3">JmPaunlagui</a>
             </NavLink>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <NavLink exact to ="/projects"
-                    className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md font-pages"
+                    className="text-gray-500 hover:text-gray-900 px-3 py-2 font-pages"
                     activeStyle = {{
                       color:'black'
                     }}>Projects</NavLink>
                   <NavLink exact to ="/resume"
-                    className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md font-pages"
+                    className="text-gray-500 hover:text-gray-900 px-3 py-2 font-pages"
                     activeStyle = {{
                       color:'black'
                     }}>Resume</NavLink>
                   <NavLink exact to ="/services"
-                    className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md font-pages"
+                    className="text-gray-500 hover:text-gray-900 px-3 py-2 font-pages"
                     activeStyle = {{
                       color:'black'
                     }}>Services</NavLink>
                   <NavLink exact to ="/contact"
-                    className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md font-pages"
+                    className="text-gray-500 hover:text-gray-900 px-3 py-2 font-pages"
                     activeStyle = {{
                       color:'black'
                     }}>Contact</NavLink>
@@ -69,22 +69,22 @@ const Navbar = () => {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                  
                 <NavLink exact to ="/projects"
-                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 rounded-md font-pages"
+                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 font-pages"
                   activeStyle = {{
                     color:'black'
                   }}>Projects</NavLink>
                 <NavLink exact to ="/resume" 
-                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 rounded-md font-pages"
+                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 font-pages"
                   activeStyle = {{
                     color:'black'
                   }}>Resume</NavLink>
                 <NavLink exact to ="/services"
-                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 rounded-md font-pages" 
+                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 font-pages" 
                   activeStyle = {{
                     color:'black'
                   }}>Services</NavLink>
                 <NavLink exact to ="/contact"
-                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 rounded-md font-pages" 
+                  className="text-gray-500 hover:text-gray-900 block px-3 py-2 font-pages" 
                   activeStyle = {{
                     color:'black'
                   }} >Contact</NavLink>

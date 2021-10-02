@@ -1,7 +1,7 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import Typewriter from 'typewriter-effect'
-import me from '../assets/image/me.png'
+import me from '../Assets/image/me.png'
 
 const Home = () => {
     return (
